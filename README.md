@@ -25,11 +25,11 @@ An image searching application powered by the Google Image Search API
   * [x] User can zoom or pan images displayed in full-screen detail view
   * [x] Use custom layout themes and colors to polish the app
   * [x] Use activity and fragment transitions in the app
+  * [x] Used the SnackBar to display internet down message.  This can be hooked up to the wifi settings activity if required.
   
 ####Points to Note:
   * [x] Google’s image search API has been deprecated and hence this app can’t be used to perform more than 100 searches
   * [x] Need to rewrite this app to use the Flickr search API for a more robust experience
-  * [x] Used the SnackBar to display internet down message.  This can be hooked up to the wifi settings activity if required.
 
 Libraries used: android-async-http-1.4.9, Glide-3.6, Mike Ortiz's TouchView, CardView-v7, jackson-2.0.1 and android-support-appcompat-v7.
 
