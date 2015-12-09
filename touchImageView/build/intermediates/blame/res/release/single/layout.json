@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/build/intermediates/res/merged/release/layout/activity_switch_image_example.xml",
+        "source": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/src/main/res/layout/activity_switch_image_example.xml"
+    },
+    {
+        "merged": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/build/intermediates/res/merged/release/layout/activity_mirroring_example.xml",
+        "source": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/src/main/res/layout/activity_mirroring_example.xml"
+    },
+    {
+        "merged": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/build/intermediates/res/merged/release/layout/activity_single_touchimageview.xml",
+        "source": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/src/main/res/layout/activity_single_touchimageview.xml"
+    },
+    {
+        "merged": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/build/intermediates/res/merged/release/layout/activity_switch_scaletype_example.xml",
+        "source": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/src/main/res/layout/activity_switch_scaletype_example.xml"
+    },
+    {
+        "merged": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/build/intermediates/res/merged/release/layout/activity_viewpager_example.xml",
+        "source": "/Users/vvenkatraman/Documents/codepath/GoogleImageSearch/touchImageView/src/main/res/layout/activity_viewpager_example.xml"
+    }
+]

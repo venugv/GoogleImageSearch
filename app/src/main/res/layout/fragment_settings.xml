@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/settingsBg"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.codepath.googleimagesearch.fragment.SettingsFragment">
+
+    <TextView
+        android:id="@+id/tvSize"
+        style="@style/SettingsFragmentTitle"
+        android:layout_alignParentTop="true"
+        android:text="@string/imageSizeTitle" />
+
+    <Spinner
+        android:id="@+id/spSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/tvSize"
+        android:entries="@array/sizeArray" />
+
+
+    <TextView
+        android:id="@+id/tvColor"
+        style="@style/SettingsFragmentTitle"
+        android:layout_below="@id/tvSize"
+        android:text="@string/colorFilterTitle" />
+
+    <Spinner
+        android:id="@+id/spColor"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spSize"
+        android:layout_toRightOf="@id/tvColor"
+        android:entries="@array/colorArray" />
+
+
+    <TextView
+        android:id="@+id/tvType"
+        style="@style/SettingsFragmentTitle"
+        android:layout_below="@id/tvColor"
+        android:text="@string/imageTypeTitle" />
+
+    <Spinner
+        android:id="@+id/spType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spColor"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/tvType"
+        android:entries="@array/typeArray" />
+
+
+    <TextView
+        android:id="@+id/tvLocationTitle"
+        style="@style/SettingsFragmentTitle"
+        android:layout_below="@id/tvType"
+        android:text="@string/locationFilterTitle" />
+
+    <EditText
+        android:id="@+id/etLocationFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_alignBottom="@id/tvLocationTitle"
+        android:layout_toRightOf="@id/tvLocationTitle" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:background="@drawable/custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etLocationFilter"
+        android:textColor="@android:color/secondary_text_dark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/saveButtonTitle" />
+
+</RelativeLayout>

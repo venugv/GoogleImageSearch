@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CC0000</color>
+    <color name="colorPrimaryDark">#800000</color>
+    <color name="colorAccent">#FF6600</color>
+    <color name="gridViewBg">#EA9999</color>
+    <color name="gridViewBgLight">#F4CCCC</color>
+    <color name="colorFont">#323232</color>
+    <color name="settingsBg">#EA9999</color>
+    <color name="grayBg">#efefef</color>
+</resources>
